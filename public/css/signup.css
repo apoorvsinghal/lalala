@@ -1,0 +1,76 @@
+#main-slider {
+visibility: hidden;
+height:0px;
+}
+
+.sign-btn {
+	width: 35%; 
+	height: 40px;
+	font-size: 18px; 
+	color: white;
+	background: -webkit-linear-gradient(#f45d7a, #ea274c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f45d7a, #ea274c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f45d7a, #ea274c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f45d7a, #ea274c);
+}
+
+.sign-btn:hover {
+
+	color: white;
+	background: #ea274c;
+
+}
+
+.signup{
+	
+padding-top:10px;
+height: 60px;
+text-align: center;
+}
+
+.login{
+background: #E1E1E1;
+padding-top:10px;
+height: 60px;
+text-align: center;
+}
+
+.clients-area {
+  padding: 60px;
+}
+
+.clients-comments {
+    //background-image: url("../images/image_bg.png");
+    background-position: center 118px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.clients-comments img {
+  background:#DDDDDD;
+  border: 1px solid #DDDDDD;
+  height: 142px;
+  padding: 3px;
+  width: 142px;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.clients-comments h3 {
+  margin-top: 55px;
+  font-weight: 300;
+  padding: 0 40px;
+}
+
+.clients-comments h4 {
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+
+.clients-comments  h4  span {
+  font-weight: 700;
+  font-style: oblique;
+}

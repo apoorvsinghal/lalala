@@ -1,0 +1,60 @@
+
+<link rel="stylesheet" href="css/signup.css" />
+<link rel="stylesheet" href="css/login.css">
+
+<br /><br /><br />
+
+ <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-1
+                col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="partnership-card">
+            <div style="font-size: 24px" class="tabs clearfix"> 
+                
+                    <div class="signup col-xs-6" style="text-align: center;">
+                        <span class="hidden-xs">Team Member</span>
+                        <span class="visible-xs">Member</span>
+                    </div>
+                                        
+                
+            </div>
+
+            <div class="partnership-card-section">
+                
+                    <p class="instructions" style="text-align: center;">Add Team Member's Details
+                    </p>
+                
+                <form data-signup-form class="form">
+                    
+                    <input type='hidden' name='csrfmiddlewaretoken' value='AJyNISrzbeI6F2PrHV0hiZY57as81gRY' />
+
+                    
+                    
+                    <div class="form-group first-name
+                            "><input type="username" name="username"
+                                class="form-control input-lg"
+                                placeholder="Team Member Name" id="username" ng-model="user.username"
+                                value=""></div><div class="form-group link
+                            ">
+                      <input type="url" name="link"
+                                class="form-control input-lg"
+                                placeholder="Profile Link" id="link"
+                                ng-model="user.link" value="" /></div>
+                                
+                    <div class="form-group desc">
+                    	
+                        <textarea class="form-control" rows="2" cols="10" id="desc" ng-model="user.desc" placeholder="Description"></textarea>
+                    </div>
+                    
+                    
+                    <input name="mixpanel_anonymous_id" type="hidden" value=""><button ng-click="addteam();" class="btn btn-warning btn-block no-margins"
+                            type="submit" data-signup-submit>
+                        Add Member
+                        <i data-signup-spinner class="fa fa-cog fa-spin"
+                                style="display: none"></i></button>
+                </form>
+            </div>
+        </div>
+    
+</div></div>
+        </div>
+    </div>

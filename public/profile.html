@@ -1,0 +1,185 @@
+    <link rel="stylesheet" type="text/css" href="css/signup.css" />
+	<link rel="stylesheet" type="text/css" href="css/browse.css" />
+    <link rel="stylesheet" type="text/css" href="css/profile.css" />
+    
+	    <header id="header-new">
+
+        <nav class="navbar navbar-inverse" role="banner" ng-controller="headerController">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="./images/ico/icon.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">My Profile</a></li>
+                        <li><a href="/nikmin">Startups</a></li>
+                        <li><a href="/nikinvestor">Investors</a></li>
+                        <li><a href="/trends">Trends & Insights</a></li>
+                        <li ng-click="browse()"><a href="#">Browse Startups & Investors</a></li>
+                        <li><a href="#" ng-click="lookfollow();">Following Investors</a></li> 
+                        <li><a href="/signin">Signout</a></li>                        
+                    </ul>
+                </div>
+                
+                
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+    
+
+
+<div class="container" style="padding-top: 0px; margin-top: -20px;">
+<div class="get-started center wow fadeInDown" style="padding-top: 0px;background: #d9f8fa; height: 300px;">
+</div>
+
+
+    <div class="row" style="padding-top: 0px; padding-left: 10px;padding-right: 10px;margin-top: -100px;">
+        <div class="col-xs-12 col-md-4">
+  
+    <div class="news-and-press partnership-card" id="news-and-press">
+        <div class="partnership-card-header
+                " ng-repeat="person in companies">
+            <div class="info">
+                <h3 style="text-align: center;">{{person.company}}</h3>
+  
+            </div>
+        </div>
+        
+            <div class="partnership-card-section" data-news-and-press
+                    
+                    >
+                <a target="_blank" href="http://www.businessinsider.com/teespring-glyn-williams-top-seller-profile-2015-11" ng-repeat="person in companies">
+                    <h4>{{person.pitch_line}}</h4>
+                </a>
+                <div class="publisher">
+                    <i class="fa fa-bookmark"></i><h5 ng-repeat="person in companies" style="margin-top: -26px;margin-left: 17px; font-size: 16px;"> {{person.username}}</h5>Entreprenuer
+                 </div>
+                
+                    <p>{{person.desc}}</p>
+                
+            </div>
+        
+            <div class="partnership-card-section" data-news-and-press
+                    
+                    >
+                    <i class="fa fa-subway"></i>
+                <a target="_blank" href="http://fortune.com/2015/09/28/t-shirt-teespring-funding/" ng-repeat="person in companies">
+                    <h4 style="margin-top: -26px;margin-left: 10px;text-align: center;"> {{person.loc}}</h4>
+                </a><hr>
+                <div class="publisher">
+                    <i class="fa fa-thumb-tack"></i><h4 ng-repeat="person in companies" style="text-align: center;">  {{person.industry}}</h4>
+                  
+                </div>
+                
+                    <p>Teespring, a San Francisco-based startup, lets people create custom t-shirt designs and then sell them online without having to worry about inventory. Its sales pitch is that it helps fuel entrepreneurship around the world.</p>
+                
+            </div>
+        </div>
+        </div>
+
+</div>
+
+
+
+ 
+ <div class="row" style="padding-top: 0px; padding-left: 10px;padding-right: 10px;margin-top: -470px;">
+        <div class="col-xs-12 col-md-8">
+        
+            <div class="partnership-card">
+                <div class="partnership-card-header">
+                    <h4>Company Summary</h4>
+                </div>
+                
+                <div data-for="fundfounder_set" class="founders-and-team">
+                    
+                    
+                    
+<div class="partnership-card-section" data-id="238" itemscope itemtype="http://schema.org/Person">
+    <div class="founder">
+        
+        <div class="founder-info">
+            <!--<form data-signup-form class="form" enctype   =  "multipart/form-data"
+     action    =  "/api/photo"
+     method    =  "post">
+             <div class="form-group company-summary
+                            "> <textarea class="form-control" rows="5" id="comment" placeholder="Add company summary. Tell the world who you are and what makes your company special"></textarea>
+                           </div>
+            		<button class="btn sign-btn">Upload a file</button>	
+                
+             </form>-->
+             
+             <form id        =  "uploadForm"
+     enctype   =  "multipart/form-data"
+     action    =  "/api/photo"
+     method    =  "post"
+>
+<input type="file" name="userPhoto" />
+<input type="submit" value="Upload Image" name="submit">
+</form>   
+               
+            
+            
+        </div>
+    </div>
+</div>
+                 
+                    
+<div class="partnership-card-section" data-id="238" itemscope itemtype="http://schema.org/Person">
+    <div class="founder">
+        
+        <div class="founder-info">
+      						<div class="wholevideo">
+								<div class="video" style="background: url(images/portfolio/full/videoback.png); height: 350px;">
+												
+                                    <div class="play center wow fadeInDown" style="padding-top: 120px;">
+                                            <img src="./images/portfolio/full/play_icon.png" height="50" width="50">
+                                            <div class="over"><p>Increase the impact of your profile by uploading a short pitch video</p></div>
+								<div class="but"><span id='clickableAwesomeFont'><i class="fa fa-upload"></i>&nbsp;Upload</span></div>
+                                    </div>
+                                    </div>
+								
+						</div>
+      
+            
+        </div>
+    </div>
+
+</div>
+
+    
+            <div class="partnership-card">
+                <div class="partnership-card-header">
+                    <h4>Team Members
+                    <a href="/team"><i class="fa fa-plus" style="margin-left: 510px;"></i></a></h4>
+                </div>
+
+<div class="partnership-card-section" data-id="239" itemscope itemtype="http://schema.org/Person">
+    <span>
+    <div class="founder">
+        <div class="founder-picture">
+            
+                <img itemprop="image" src="./images/ico/extras/user.png" alt="Evan Stites-Clayton">
+            
+        </div>
+        <div class="founder-info">
+            	<i class="fa fa-pencil" style="margin-left: 500px;"></i>
+                <h5 itemprop="name" ng-repeat = "person in companies">
+                    {{person.username}}
+                    
+                </h5>
+                <div itemprop="jobTitle" class="founder-title">Co-Founder</div>
+                <p itemprop="description"></p>
+            
+        </div>
+    </div></span>
+</div>
+
+</div>

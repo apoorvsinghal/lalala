@@ -1,0 +1,323 @@
+div.header, div.mainheader {
+  visibility: hidden;
+  display:none;
+	height: 0px;
+}
+div.nav {
+	margin-left: 50%;
+	background:#FFF;
+}
+div.nav ul li a{
+	padding: 0px 0px;
+}
+div.nav ul li img  {
+
+	padding-left:12px;
+	padding-right:12px;
+	float:left;
+	margin:16px;
+	display:inline;
+	height:30px;
+	width:30px;
+
+}
+div.banner{
+  margin-top:35px;
+  margin-left:130px;
+  background-image: url(../images/bground/startupbanner.jpg);
+  background-size: 100% 100%;
+  opacity:0.4;
+  width:1050px;
+  height:280px;
+
+}
+div.sidemenu{
+  top:220px;
+  left:150px;
+
+  background-color:white;
+  width:300px;
+  height:650px;
+  border:1px solid #c9c7c7;
+  box-shadow:1px 1px 1px #c9c7c7;
+  z-index:2;
+  position:absolute;
+}
+
+div.top1 a{
+
+  margin-left:105px;
+  padding-left:20px;
+    padding-right:20px;
+  color:black;
+
+  text-decoration:none;
+  font-size:80px;
+  text-align:center;
+  border:1px solid #f7f7f7;
+  background-color:#02aeae;
+
+}
+
+.top1{
+  height:220px;
+  border-bottom:1px solid #c9c7c7;
+}
+
+div.top1 h2{
+  color:#c9c7c7;
+  margin-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+
+div.top2 tr td{
+  border-bottom:1px solid #c9c7c7;
+}
+div.top2 tr td a{
+  text-decoration:none;
+  color:white;
+  border: 1px solid #02aeae;
+  background-color:#02aeae;
+
+}
+div.top2 table,td{
+  width:300px;
+  padding:15px;
+  border-collapse:collapse;
+}
+
+div.nav2{
+
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+
+	background-color:#f4f4f4;
+
+}
+
+div.nav2 ul{
+
+	margin-left:55px;
+
+}
+div.nav2 ul li {
+	display:inline;
+	margin-left:20px;
+	font-size:17px;
+}
+div.nav2 ul li a:hover{
+
+text-decoration:underline;
+
+}
+
+
+
+
+	div.sidemenu:hover div.edit{
+		visibility:visible;
+	}
+	
+	div.top1 a{
+
+		color:black;
+		text-decoration:none;
+		font-size:80px;
+
+	}
+	div.icon{
+		margin-top:20px;
+		margin-left:90px;
+		padding:8px;
+		border:1px solid #f7f7f7;
+		background-color:#02aeae;
+		text-align:center;
+		width:100px;
+	}
+
+	.top1{
+		
+		
+		height:260px;
+		border-bottom:1px solid #c9c7c7;
+	}
+	
+	div.top1 h2{
+		color:#c9c7c7;
+		margin-top:20px;
+		padding-bottom:10px;
+		text-align:center;
+	}
+  
+	#top2{
+		height:400px;
+	}
+	#top2 tr td{
+		border-bottom:1px solid #c9c7c7;
+	}
+	
+	#top2 tr td a{
+		
+		text-decoration:none;
+		color:white;
+		border: 1px solid #02aeae;
+		background-color:#02aeae;
+		padding:5px;
+		padding-left:30px;
+		padding-right:30px;
+		margin-left:35px;
+	}
+	#top2 table,td{
+		width:300px;
+		
+		padding:15px;
+		border-collapse:collapse;
+	}
+	div.contact{
+		top:925px;
+		left:150px;
+		
+		background-color:white;
+		width:300px;
+		height:180px;
+		border:1px solid #c9c7c7;
+		box-shadow:1px 1px 1px #c9c7c7;
+		z-index:2;
+		position:absolute;
+		
+	}
+	div.contact p{
+		padding:10px;
+	}
+	
+	div.nav3{
+		width:53%;
+	margin-left:35%;
+	border-bottom:1px solid #c9c7c7;
+	}
+	div.nav3 ul{
+	margin-left:-40px;
+	}
+	div.nav3 ul li{
+		padding:6px;
+		display:inline;
+	}
+	div.nav3 ul li a{
+		text-decoration:none;
+		color:#c9c7c7;
+		padding-bottom:15px;
+	}
+	div.nav3 ul li a:hover{
+		border-bottom:2px solid #02aeae;
+	}
+	
+	div.rightsec{
+		width:53%;
+	margin-left:35%;
+	}
+	div.summary{
+		
+		font-size:27px;
+		margin-top:7%;
+	}
+	div.summary img{
+		margin-top:-1%;
+		width:700px;
+	}
+	div.edit{
+		float:right;
+		visibility:hidden;
+		font-size:35px;
+		color:#02aeae;
+	}
+	div.summary:hover div.edit{
+		visibility:visible;
+	}
+	div.video img{
+		opacity:0.7;
+		border:2px dashed #c9c7c7;
+		margin-top:30px;
+		background-size:100% 100%;
+		height:370px;
+		width:700px;
+		}
+		div.wholevideo:hover div.but{
+			
+			visibility:visible;
+		}
+		div.video img:hover{
+			border:2px dashed black;
+		}
+			
+	div.play img{
+		height:120px;
+		width:120px;
+		opacity:0.3;
+		margin-left:40%;
+		margin-top:-37%;
+	}	
+	div.over{
+		text-align:center;
+		margin-top:-230px;
+		
+	}
+	
+	div.but{
+		visibility:hidden;
+		margin-left:500px;
+		margin-top:130px;
+		background-color:white;
+		
+		color:#02aeae;
+		font-size:20px;
+		border:2px solid #02aeae;
+		
+		
+	}
+	div.wholevideo{
+		height:420px;
+	}
+	
+	
+	div.teampart table{
+		border-top:1px solid #c9c7c7;
+		border-bottom:1px solid #c9c7c7;
+		
+	}
+	div.team:hover div.edit{
+		visibility:visible;
+	}
+	
+		
+		div.advisor{
+		margin-top:50px;
+	}
+	
+	div.advisor table{
+		border-top:1px solid #c9c7c7;
+		border-bottom:1px solid #c9c7c7;
+	}
+	
+		div.invest{
+		margin-top:50px;
+	}
+	
+	div.invest table{
+		border-top:1px solid #c9c7c7;
+		border-bottom:1px solid #c9c7c7;
+	}
+	div.advisor:hover div.edit{
+		visibility:visible;
+	}
+	div.invest:hover div.edit{
+		visibility:visible;
+	}
+	div.contact:hover div.edit{
+		visibility:visible;
+	}
+	
+	#clickableAwesomeFont {
+     cursor: pointer
+}
