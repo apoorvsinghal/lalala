@@ -18,7 +18,7 @@ var mongoose = require('mongoose');
 var validator = require('express-validator');
 
 
-mongoose.connect('mongodb://localhost/bridgeit');
+mongoose.connect('MONGOLAB_URI: mongodb://heroku_d2w2dx8h:5212r3kc4fe7m9dfno6sqf2k28@ds035004.mongolab.com:35004/heroku_d2w2dx8h');
 var db = mongoose.connection;
 
 
