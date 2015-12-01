@@ -25,7 +25,7 @@ app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-mongoose.connect("mongodb://localhost/minorbridge");
+mongoose.connect(" mongodb://heroku_683l1fn9:65rqbqe2nivck6n4i87j5ie0he@ds063124.mongolab.com:63124/heroku_683l1fn9");
 var MongoDB = mongoose.connection;
 
 /*MongoDB.on('error', function(err) { console.log(err.message); });
